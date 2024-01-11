@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2eeae27891914173ae7dec26db4bb6e, type: 3}
   m_Name: 01
   m_EditorClassIdentifier: 
-  sentence: Hi, this is the first sentence
-  timeToStart: 5
-  audio: {fileID: 8300000, guid: 970b2d83a47b64b1a9c955896d7deb7c, type: 3}
+  sentence: "Here we ask you to leave behind the busy pace of everyday life \nand
+    invite you instead to let your consciousness drift into a slower time,\na more
+    cosmic time."
+  timeToStart: 7
+  audio: {fileID: 8300000, guid: 0745a4f2956875346aa85f742d144655, type: 3}

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2eeae27891914173ae7dec26db4bb6e, type: 3}
   m_Name: 02
   m_EditorClassIdentifier: 
-  sentence: And this is the second sentence
-  timeToStart: 10
-  audio: {fileID: 8300000, guid: 8076b2af92a7b4db7829c53c830a0b65, type: 3}
+  sentence: "Find a comfortable position on the floor \nwhere you can be lie down
+    for a while, look up, \nand watch the heavens reveal themselves to you"
+  timeToStart: 20
+  audio: {fileID: 8300000, guid: a3409857840e91f4dbbdfd00efb357b9, type: 3}
