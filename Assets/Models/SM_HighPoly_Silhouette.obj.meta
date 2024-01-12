@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Models/SM_HighPoly_Silhouette.obj.meta
 guid: 19a8606cd39036c44bd662bf9303d9e3
+========
+guid: 4ce7f279aadfd4b8c9a8e631b3f4d9bd
+>>>>>>>> 68654f5acdead3c3b34a85eaadae7d109718fd2e:Assets/Models/SM_dome.fbx.meta
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
