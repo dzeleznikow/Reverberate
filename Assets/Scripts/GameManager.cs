@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     AudioSource audioSource;
     float fadeDuration = 0.5f;
 
+    GameObject[] people;
+    public List<Animator> anims;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,21 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < instructions.Length; i++)
         {
             StartCoroutine(PlaySentence(i));
+        }
+
+
+
+        people = GameObject.FindGameObjectsWithTag("Person");
+
+        for (int j = 0; j < people.Length; j++)
+        {
+            anims.Add(people[j].GetComponent<Animator>());
+        }
+
+        foreach (Animator anim in anims)
+        {
+            anim.SetInteger("Random", Random.Range(0, 3));
+            anim.Play("Base", 0, Random.Range(0f, 1f));
         }
     }
 
@@ -52,5 +70,17 @@ public class GameManager : MonoBehaviour
         }
 
         subtitle.text = "";
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            foreach (Animator anim in anims)
+            {
+                anim.SetBool("LayDown", true);
+                anim.SetFloat("Offset", Random.Range(0f, 0.5f));
+            }
+        }
     }
 }
