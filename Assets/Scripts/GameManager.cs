@@ -25,17 +25,17 @@ public class GameManager : MonoBehaviour
 
 
 
-        people = GameObject.FindGameObjectsWithTag("Person");
+        people = GameObject.FindGameObjectsWithTag("Person"); //Get the people in the scene
 
         for (int j = 0; j < people.Length; j++)
         {
-            anims.Add(people[j].GetComponent<Animator>());
+            anims.Add(people[j].GetComponent<Animator>()); //Get each person's animator controller
         }
 
-        foreach (Animator anim in anims)
+        foreach (Animator anim in anims) //For every animator controller...
         {
-            anim.SetInteger("Random", Random.Range(0, 3));
-            anim.Play("Base", 0, Random.Range(0f, 1f));
+            anim.SetInteger("Random", Random.Range(0, 3)); //...give them a random pose of the 3
+            anim.Play("Base", 0, Random.Range(0f, 1f)); //...play the animation
         }
     }
 
@@ -76,10 +76,10 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            foreach (Animator anim in anims)
+            foreach (Animator anim in anims) //For each person's animator controller...
             {
-                anim.SetBool("LayDown", true);
-                anim.SetFloat("Offset", Random.Range(0f, 0.5f));
+                anim.SetBool("LayDown", true); //...make them lay down
+                anim.SetFloat("Offset", Random.Range(0f, 0.5f)); //...offset the animation for a more natural effect
             }
         }
     }
