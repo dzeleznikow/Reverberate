@@ -13,6 +13,12 @@ public class GameManager : MonoBehaviour
     GameObject[] people;
     public List<Animator> anims;
 
+    public Light light;
+    float colTimer = 5f;
+    float t = 0;
+
+    public GameObject fog;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -76,11 +82,38 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            foreach (Animator anim in anims) //For each person's animator controller...
-            {
-                anim.SetBool("LayDown", true); //...make them lay down
-                anim.SetFloat("Offset", Random.Range(0f, 0.5f)); //...offset the animation for a more natural effect
-            }
+            BeginExperience();
         }
+    }
+
+    private IEnumerator ChangeColor()
+    {
+        Color endColor = Random.ColorHSV(0.5f, 0.8f, 0.25f, 0.3f, 0.9f, 1f);
+
+        float tick = 0f;
+        while (light.color != endColor)
+        {
+            tick += Time.deltaTime * 0.05f;
+            light.color = Color.Lerp(light.color, endColor, tick);
+
+            light.intensity = Mathf.Lerp(light.intensity, 50, tick);
+            RenderSettings.fogEndDistance = Mathf.Lerp(RenderSettings.fogEndDistance, 40, tick);
+            yield return null;
+        }
+
+        StartCoroutine(ChangeColor());
+    }
+
+    void BeginExperience()
+    {
+        StartCoroutine(ChangeColor());
+
+        foreach (Animator anim in anims) //For each person's animator controller...
+        {
+            anim.SetBool("LayDown", true); //...make them lay down
+            anim.SetFloat("Offset", Random.Range(0f, 0.5f)); //...offset the animation for a more natural effect
+        }
+
+        fog.SetActive(true);
     }
 }
