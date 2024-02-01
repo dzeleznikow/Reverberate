@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence: "So for now lie back, \nlay still,  relax, and watch as the entire sky\nfills
     with meaning before your eyes"
-  timeToStart: 55
+  timeToStart: 30
   audio: {fileID: 8300000, guid: e5e32b90c04b33b48a3b962d8d7a2204, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2eeae27891914173ae7dec26db4bb6e, type: 3}
   m_Name: 02
   m_EditorClassIdentifier: 
-  sentence: "Find a comfortable position on the floor \nwhere you can be lie down
-    for a while, look up, \nand watch the heavens reveal themselves to you"
+  sentence: "Find a comfortable position on the floor \nwhere you can lie still for
+    a while, look up, \nand watch the heavens reveal themselves to you"
   timeToStart: 20
   audio: {fileID: 8300000, guid: a3409857840e91f4dbbdfd00efb357b9, type: 3}

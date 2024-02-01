@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
             StartCoroutine(PlaySentence(i));
         }
 
-
+        Invoke("BeginExperience", 37f);
 
         people = GameObject.FindGameObjectsWithTag("Person"); //Get the people in the scene
 
@@ -80,20 +80,20 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            BeginExperience();
-        }
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     BeginExperience();
+        // }
     }
 
     private IEnumerator ChangeColor()
     {
-        Color endColor = Random.ColorHSV(0.5f, 0.8f, 0.25f, 0.3f, 0.9f, 1f);
+        Color endColor = Random.ColorHSV(0.1f, 0.5f, 0.25f, 0.3f, 0.9f, 1f);
 
         float tick = 0f;
         while (light.color != endColor)
         {
-            tick += Time.deltaTime * 0.05f;
+            tick += Time.deltaTime * 0.01f;
             light.color = Color.Lerp(light.color, endColor, tick);
 
             light.intensity = Mathf.Lerp(light.intensity, 50, tick);
