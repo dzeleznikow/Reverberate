@@ -97,7 +97,7 @@ LightmapSettings:
     m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -14893,12 +14893,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 24752deb65530e94189f2205dcafbce7, type: 2}
+      objectReference: {fileID: 2100000, guid: 5dd5772f143fa994ab4672e0683250aa, type: 2}
     - target: {fileID: -8121500381309504780, guid: 610eab79c7961f44dbd7d5d27b744f56,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 24752deb65530e94189f2205dcafbce7, type: 2}
+      objectReference: {fileID: 2100000, guid: 2e6046a8221576b41b501eb5cb80153c, type: 2}
     - target: {fileID: -7617744812737800320, guid: 610eab79c7961f44dbd7d5d27b744f56,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -15003,7 +15003,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 24752deb65530e94189f2205dcafbce7, type: 2}
+      objectReference: {fileID: 2100000, guid: 5dd5772f143fa994ab4672e0683250aa, type: 2}
     - target: {fileID: 614320152502208700, guid: 610eab79c7961f44dbd7d5d27b744f56,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
