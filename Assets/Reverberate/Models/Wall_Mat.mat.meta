@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Reverberate/Models/Wall_Mat.mat.meta
 guid: 37041741af11c411ebcd41806e1c3f82
 NativeFormatImporter:
+========
+guid: e4d8685274872c34ca1992209196b318
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> c3edd833d9f2742bb3c96e470dd070de1d286e1d:Assets/Reverberate/Models/Hari's Prototype.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 
