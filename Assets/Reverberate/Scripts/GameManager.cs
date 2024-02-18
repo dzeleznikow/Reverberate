@@ -14,8 +14,7 @@ public class GameManager : MonoBehaviour
     public List<Animator> anims;
 
     public Light light;
-    float colTimer = 5f;
-    float t = 0;
+    public GameObject particles;
 
     //public GameObject fog;
 
@@ -45,6 +44,13 @@ public class GameManager : MonoBehaviour
         }
 
         Invoke("BeginExperience", 23f);
+        StartCoroutine(EndSequence());
+    }
+
+    IEnumerator EndSequence()
+    {
+        yield return new WaitForSeconds(350f);
+        particles.SetActive(true);
     }
 
     IEnumerator PlaySentence(int index)
@@ -80,8 +86,13 @@ public class GameManager : MonoBehaviour
         subtitle.text = "";
     }
 
+    float time = 0;
+
     private void Update()
     {
+        time += Time.deltaTime;
+        Debug.Log(time);
+
         //if (Input.GetKeyDown(KeyCode.Space))
         //{
         //    BeginExperience();
