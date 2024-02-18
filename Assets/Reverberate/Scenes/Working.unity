@@ -10591,7 +10591,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c63fc8ad7005a4d808624d452073336f, type: 2}
   - {fileID: 11400000, guid: 93e6800b9a8ccf844a531673cf167bb1, type: 2}
   - {fileID: 11400000, guid: cebb95049d286b240846e30ac0d6ef4f, type: 2}
-  - {fileID: 11400000, guid: 36d594b61106c4d4b87e3c8c2f50cd45, type: 2}
+  - {fileID: 11400000, guid: 17bc414c36f1286458be43cadf5e7f84, type: 2}
   anims:
   - {fileID: 1345823920}
   - {fileID: 1032404485}
@@ -10599,32 +10599,7 @@ MonoBehaviour:
   - {fileID: 1015839317}
   - {fileID: 185273129}
   - {fileID: 548183696}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   light: {fileID: 1125739767}
-  fog: {fileID: 0}
 --- !u!82 &560631419
 AudioSource:
   m_ObjectHideFlags: 0
