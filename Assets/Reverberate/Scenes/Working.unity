@@ -19001,6 +19001,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: New_Screen
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8337ea9ec17d89843be24613cba4fd38,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8337ea9ec17d89843be24613cba4fd38,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22035,7 +22040,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748934500}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b82fdbe53e8574fb58a56c42dfb8de80, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 62e9864328cbaa445a9d8148b45b52ff, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
