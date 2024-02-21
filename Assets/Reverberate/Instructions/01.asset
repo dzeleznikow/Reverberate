@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2eeae27891914173ae7dec26db4bb6e, type: 3}
   m_Name: 01
   m_EditorClassIdentifier: 
-  sentence: "Find a comfortable position lying down on the floor where you can let
-    your mind be still for a while,\n as you look up, and watch as the heavens reveal
-    themselves to you"
+  sentence: "Here we ask you to leave behind the busy pace of everyday life \nand
+    invite you instead to let your consciousness drift into a slower time,\na more
+    cosmic time."
   timeToStart: 7
   audio: {fileID: 8300000, guid: 0745a4f2956875346aa85f742d144655, type: 3}

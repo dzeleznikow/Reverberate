@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2eeae27891914173ae7dec26db4bb6e, type: 3}
   m_Name: 04
   m_EditorClassIdentifier: 
-  sentence: 'As you return to navigating the reality of your life,
-
-    we hope the planetarium provided a place of stillness,
-
-    a place of quiet, a place of calm'
-  timeToStart: 366
-  audio: {fileID: 8300000, guid: 8b2aaa78c5b59a74ab2cbdbe24ded83f, type: 3}
+  sentence: Find a comfortable position lying down on the floor where you can be still
+    for a while, look up, and watch as the heavens reveal themselves to you
+  timeToStart: 30
+  audio: {fileID: 8300000, guid: a3409857840e91f4dbbdfd00efb357b9, type: 3}

@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2eeae27891914173ae7dec26db4bb6e, type: 3}
   m_Name: 03
   m_EditorClassIdentifier: 
-  sentence: For thousands of years humans used the celestial bodies to navigate their
-    internal and external reality
-  timeToStart: 358
+  sentence: "What you will come to observe are the twelve constellations of the Zodiac.\nThey
+    have been identified for thousands of years, first by Babylonian and then Greek
+    astronomers,\n then by navigators and sailors, and later becoming part of our
+    everyday creative imagination. \nEach time, helping us navigate our place in space
+    and time"
+  timeToStart: 31
   audio: {fileID: 8300000, guid: b9f0bad5e3bfda940906bc23541d67f5, type: 3}
