@@ -1,12 +1,6 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Reverberate/Materials/Textures/barrier/test.mat.meta
 guid: c613305f76fd64b4abf3f713e8a985cf
 NativeFormatImporter:
-========
-guid: 4fc40c6665ff9412b89076c85cf7ac94
-folderAsset: yes
-DefaultImporter:
->>>>>>>> c4a4a84970be2bdda00fbbdb424d1c5f7f93b509:Assets/Reverberate/Materials/Planets.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 
