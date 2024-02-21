@@ -1,8 +1,15 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Reverberate/Scenes/Working/LightingData.asset.meta
 guid: ac629edcc015a4fecbac1b6205263cc4
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 112000000
+========
+guid: 32ea389e1c3f3fa448fdd707d52fa5e8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+>>>>>>>> c3edd833d9f2742bb3c96e470dd070de1d286e1d:Assets/Reverberate/Models/Lei/Materials/pillow simple1-1.mat.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 
