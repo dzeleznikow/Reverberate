@@ -948,11 +948,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: sm_lantern_02_low (3)
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1514,11 +1509,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: sm_lantern_02_low (1)
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1901,11 +1891,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: sm_lantern_02_low (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
         type: 3}
@@ -6982,11 +6967,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: sm_lantern_02_low (2)
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7327,11 +7307,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: sm_lantern_02_low
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7630,11 +7605,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: sm_lantern_02_low (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
         type: 3}
@@ -8153,40 +8123,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c63fc8ad7005a4d808624d452073336f, type: 2}
   - {fileID: 11400000, guid: 93e6800b9a8ccf844a531673cf167bb1, type: 2}
   - {fileID: 11400000, guid: cebb95049d286b240846e30ac0d6ef4f, type: 2}
-  - {fileID: 11400000, guid: 36d594b61106c4d4b87e3c8c2f50cd45, type: 2}
+  - {fileID: 11400000, guid: 17bc414c36f1286458be43cadf5e7f84, type: 2}
   anims:
   - {fileID: 1345823920}
   - {fileID: 1032404485}
   - {fileID: 515028502}
   - {fileID: 1015839317}
-  - {fileID: 0}
   - {fileID: 548183696}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  particles: {fileID: 315786047}
-  video: {fileID: 1748934504}
+  light: {fileID: 0}
+  fog: {fileID: 0}
 --- !u!82 &560631419
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8571,7 +8516,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &655711358
 Transform:
@@ -9658,11 +9603,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: sm_lantern_02_low (5)
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9925,7 +9865,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1073326060
 Transform:
@@ -12264,11 +12204,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: sm_lantern_02_low (7)
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2ed11f7937e35e942b3e7a9ffbc35d07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12790,7 +12725,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1604564889
 Transform:
@@ -13498,7 +13433,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1685642548
 Transform:
@@ -13683,7 +13618,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1692850554
 Transform:
@@ -13958,7 +13893,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748934500}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 62e9864328cbaa445a9d8148b45b52ff, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 2e2b40960d11fd0499c9be1d250d2339, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -14141,7 +14076,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1803079643
 Transform:
@@ -14238,7 +14173,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1844681575
 Transform:
@@ -16185,7 +16120,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2141623961
 Transform:
