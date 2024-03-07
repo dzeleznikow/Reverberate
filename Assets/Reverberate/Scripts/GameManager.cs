@@ -41,12 +41,14 @@ public class GameManager : MonoBehaviour
             anim.SetInteger("Random", Random.Range(0, 3)); //...give them a random pose of the 3
             anim.Play("Base", 0, Random.Range(0f, 1f)); //...play the animation
         }
+
+        Invoke("BeginExperience", 23f);
     }
 
     IEnumerator EndSequence()
     {
         yield return new WaitForSeconds(352f);
-        video.Pause();
+        //video.Pause();
         particles.SetActive(true);
     }
 
@@ -82,4 +84,19 @@ public class GameManager : MonoBehaviour
 
         subtitle.text = "";
     }
+
+    void BeginExperience()
+    {
+
+        foreach (Animator anim in anims) //For each person's animator controller...
+        {
+            anim.SetBool("LayDown", true); //...make them lay down
+            anim.SetFloat("Offset", Random.Range(0f, 1f)); //...offset the animation for a more natural effect
+        }
+
+
+    }
+
+
+
 }
